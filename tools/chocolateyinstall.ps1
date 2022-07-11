@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/dvingerh/tb-vol-scroll/releases/download/3.9/tb-vol-scroll.exe'
+$url        = 'https://github.com/dvingerh/tb-vol-scroll/releases/download/4.1.2/tb-vol-scroll.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -9,7 +9,7 @@ $packageArgs = @{
   url           = $url
   url64bit      = $url64
   softwareName  = 'tb-vol-scroll*'
-  checksum      = '20D78C68CE76D774AF3D843EB727F8E161BD8BAE63822C6C3D280F0BD39CA4A8'
+  checksum      = '80C1025314A976B71E4122288CACB5344F6EA3B02AB4C0FBB68B8BDA8192995D'
   checksumType  = 'sha256'
 }
 
