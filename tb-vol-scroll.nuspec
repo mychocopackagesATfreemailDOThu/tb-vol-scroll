@@ -40,7 +40,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <projectUrl>https://github.com/dvingerh/tb-vol-scroll</projectUrl>
     <!-- There are a number of CDN Services that can be used for hosting the Icon for a package. More information can be found here: https://docs.chocolatey.org/en-us/create/create-packages#package-icon-guidelines -->
     <!-- Here is an example using Githack -->
-    <iconUrl>https://cdn.statically.io/gh/dvingerh/tb-vol-scroll/master/voltray.ico</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/dvingerh/tb-vol-scroll/master/Resources/default.ico</iconUrl>
     <copyright>2022 tb-vol-scroll Dirk Vingerhoeds</copyright>
     <!-- If there is a license Url available, it is required for the community feed -->
     <licenseUrl>https://github.com/dvingerh/tb-vol-scroll/blob/master/LICENSE</licenseUrl>
